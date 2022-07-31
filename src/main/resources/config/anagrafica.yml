@@ -12,3 +12,7 @@ spring:
     admin:
       properties:
         bootstrap.servers: localhost:9092
+
+esami:
+  ribbon:
+    listOfServers: http://localhost:8081
